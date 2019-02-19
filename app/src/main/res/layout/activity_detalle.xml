@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/MiCelda"
+    android:weightSum="1">
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imagen"
+        android:layout_width="161dp"
+        android:layout_height="138dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="0.39"
+            android:text="TITULO"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#4CAF50"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/subtitulo"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="0.42"
+            android:text="Subtitulo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff050505"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>
